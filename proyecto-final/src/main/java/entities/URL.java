@@ -16,7 +16,7 @@ public class URL {
     private List<String> navegadores;
     private List<String> sistemasOperativos;
     private List<String> direccionesIp;
-    private List<String> dominios;
+
 
 
     public long getId() {
@@ -83,13 +83,6 @@ public class URL {
         this.direccionesIp = direccionesIp;
     }
 
-    public List<String> getDominios() {
-        return dominios;
-    }
-
-    public void setDominios(List<String> dominios) {
-        this.dominios = dominios;
-    }
 
     public String toString() {
         return "URL{" +
@@ -101,7 +94,6 @@ public class URL {
                 ", navegadores=" + navegadores +
                 ", sistemasOperativos=" + sistemasOperativos +
                 ", direccionesIp=" + direccionesIp +
-                ", dominios=" + dominios +
                 '}';
     }
 

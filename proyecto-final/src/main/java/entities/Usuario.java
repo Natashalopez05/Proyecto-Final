@@ -8,7 +8,6 @@ public class Usuario  {
     private String nombre;
     private String password;
     private boolean admin;
-  private boolean usuario;
     private boolean active;
 
 
